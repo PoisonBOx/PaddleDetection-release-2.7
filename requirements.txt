@@ -1,24 +1,26 @@
-numpy < 1.24
-tqdm
-typeguard
-visualdl>=2.2.0
-opencv-python <= 4.6.0
-PyYAML
 shapely
-scipy
-terminaltables
-Cython
-pycocotools
-setuptools
-Pillow
+scikit-image
+imgaug
+pyclipper
+lmdb
+tqdm
+numpy==1.23.4
+visualdl
+rapidfuzz
+opencv-python-headless
+opencv-contrib-python
+cython
+lxml
+premailer
+openpyxl
+attrdict
+Pillow>=10.0.0
+pyyaml
 
 # for MOT evaluation and inference
 lap
 motmetrics
-sklearn==0.0
+sklearn
 
 # for vehicleplate in deploy/pipeline/ppvehicle
 pyclipper
-
-# for culane data augumetation
-imgaug>=0.4.0
